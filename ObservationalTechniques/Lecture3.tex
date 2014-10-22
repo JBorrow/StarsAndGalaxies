@@ -1,0 +1,62 @@
+\paragraph{Example: }What are the basic properties of an $f/10$, $10$"
+telescope?
+\begin{itemize}
+	\item Focal length:
+	$$
+		F/\# = \frac{f}{D} \; \rightarrow \; 10 \times 10 \times 2.54 = 254
+		\mathrm{cm}
+	$$
+	\item Plate scale:
+	$$
+		\frac{\mathrm{d}\theta}{\mathrm{d}s} = \frac{1}{f} = \frac{1}{254} = 
+		0.22 \, ^\circ / \mathrm{cm}
+	$$
+	\item Light gathering power compared to eye:
+	$$
+		\mathrm{LGP} = \frac{25.4^2}{0.12^2} = 4.4\times 10^4
+	$$
+	\item Resolving power:
+	$$
+		\theta = 1.22\frac{\lambda}{D} = 0.5 \mathrm{"}
+	$$
+\end{itemize}
+
+\section{The Atmosphere and Detectors}
+The atmosphere is a right pain. It causes:
+\begin{itemize}
+	\item Absorption
+	\item Refraction and dispersion
+	\item Emission \begin{itemize}
+		\item Thermal
+		\item Rayleigh scattering
+		\item Flourescent emission
+	\end{itemize}
+	\item Turbulance (twinkle)
+\end{itemize}
+
+\subsection{Correcting for atmospheric absorption}
+We have that:
+$$
+	m_{corr} = m_{obs} - A_\lambda \sec z
+$$
+Where $A_\lambda$ is the number of air volumes you're looking through, and $z$
+is the angle with respect to straight up.
+
+\subsection{Atmospheric refraction}
+This is what causes the `green flash'. The angle that the light is refracted by,
+$r$, is given by:
+$$
+	r = (n-1)\tan(z)
+$$
+Where $z$ is the same as above. This means that any object that is not directly
+above us shows a spectrum ($n$ varies by colour).
+
+\subsection{Atmospheric emission}
+We see very bright emission lines from OH in the upper atmosphere, as they
+transfrom between rotational and vibrational energy levels. These are mainly
+in the infa-red, however we really want to look in the IR - so we just ignore it
+and build telescopes anyway. Most of the IR comes from the heat of the
+telescopes themselves and as such we need to keep them very cool. We want to
+observe in the IR because it allows us to see through the dust in the center of
+our galaxy.
+
